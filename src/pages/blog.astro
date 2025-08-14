@@ -1,5 +1,11 @@
 ---
+import '../styles/global.css';
+
 const pageTitle = "Sobre mi";
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
 <!doctype html>
 <html lang="en">
@@ -7,6 +13,17 @@ const pageTitle = "Sobre mi";
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width" />
         <title>{pageTitle}</title>
+        <style define:vars={{skillColor, fontWeight, textCase}}>
+				h1 {
+					color: purple;
+					font-size: 4rem;
+				}
+				.skill {
+					color: var(--skillColor);
+					font-weight: var(--fontWeight);
+					text-transform: var(--textCase);
+				}
+			</style>
     </head>
 	<body>
 	
@@ -15,12 +32,12 @@ const pageTitle = "Sobre mi";
 		<a href="/blog/">Blog</a>
 
 		<h1>{pageTitle}</h1>
-        <h1>Mi blog de Astro aprendizaje</h1>
+        <h2>Mi blog de Astro aprendizaje</h2>
         <p>Aquí es donde publicaré sobre mi viaje de aprendizaje Astro.</p>
         <ul>
-            <li><a href="/posts/post-1/">Publicación 1</a></li>
-            <li><a href="/posts/post-2/">Publicación 2</a></li>
-            <li><a href="/posts/post-3/">Publicación 3</a></li>
+            <li class="skill"><a href="/posts/post-1/">Publicación 1</a></li>
+            <li class="skill"><a href="/posts/post-2/">Publicación 2</a></li>
+            <li class="skill"><a href="/posts/post-3/">Publicación 3</a></li>
         </ul>
 	</body>
 </html>
