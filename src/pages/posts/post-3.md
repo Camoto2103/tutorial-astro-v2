@@ -1,6 +1,7 @@
 ---
-title: 'Mi primera publicación en el blog'
-pubDate: 2025-07-01
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'Mi tercera publicación en el blog'
+pubDate: 2025-08-15
 description: 'Compartiendo los desafíos y logros en mi camino con Astro.'
 author: 'Alumno de Astro'
 image:

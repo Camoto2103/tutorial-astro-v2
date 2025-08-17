@@ -1,11 +1,12 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi segunda publicación en el blog
 author: Alumno de Astro
 description: "Después de aprender un poco de Astro, ¡no podía parar!"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Miniatura de los arcos de Astro."
-pubDate: 2022-07-08
+pubDate: 2025-08-15
 tags: ["astro", "bloguear", "aprender en público", "éxitos"]
 ---
 Después de mi primera experiencia con Astro, sentí la necesidad de seguir explorando y aprendiendo más sobre esta increíble herramienta. Cada nuevo proyecto me ayuda a entender mejor cómo funciona y cómo puedo aprovechar sus características para crear sitios web rápidos y modernos.

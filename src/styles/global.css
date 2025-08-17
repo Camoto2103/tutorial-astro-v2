@@ -35,6 +35,13 @@ p {
   font-size: 1.25rem;
 }
 
+.skill {
+  color: navy;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
 /* estilos de la barra de navegación*/
 .hamburger {
   padding-right: 20px;
