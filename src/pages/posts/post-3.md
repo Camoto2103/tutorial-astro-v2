@@ -7,7 +7,7 @@ author: 'Alumno de Astro'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
-tags: ["astro", "bloguear", "aprender en público"]
+tags: ["astro", "bloguear", "éxitos", "aprender en público", "comunidad"]
 ---
 En este tercer post quiero hablar sobre algunos de los retos que he enfrentado al trabajar con Astro y cómo los he superado. Aprender una nueva tecnología siempre implica momentos de frustración, pero también muchas satisfacciones.
 

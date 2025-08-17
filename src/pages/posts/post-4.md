@@ -7,7 +7,7 @@ image:
   url: "https://docs.astro.build/default-og-image.png"
   alt: "La palabra 'astro' contra una ilustración de planetas y estrellas."
 pubDate: 2025-08-17
-tags: ["astro", "éxitos"]
+tags: ["astro", "bloguear", "éxitos", "aprender en público", "comunidad",  "contratiempos"]
 ---
 Astro facilita la creación de blogs y sitios web modernos gracias a su soporte para Markdown y plantillas anidadas. En esta publicación, te cuento cómo se estructura una página de blog usando estas herramientas.
 
